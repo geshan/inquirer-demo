@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A demo application built with Inquirer.js to guess the nationality and gender from a given name",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
