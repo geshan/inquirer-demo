@@ -31,7 +31,7 @@ function getAnswers() {
         return 'Please provide a first name';
       }
       if(firstName.length <= 3 || firstName.length > 20) {
-        return 'Please provdier a frist name between 4 and 20 characters long';
+        return 'Please provide a first name between 4 and 20 characters long';
       }
 
       return true;
@@ -69,5 +69,5 @@ async function guessNationality(firstName) {
     return;
   }
   //can use this API to get country name from ISO 2 - http://api.worldbank.org/v2/country/np?format=json
-  console.log(`The API guessed the nationality for ${firstName} to be ${country[0].country_id} with the highest probablity of ${(country[0].probability * 100).toFixed(2)}%`);
+  console.log(`The API guessed the nationality for ${firstName} to be ${country[0].country_id} with the highest probability of ${(country[0].probability * 100).toFixed(2)}%`);
 }

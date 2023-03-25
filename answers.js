@@ -19,7 +19,7 @@ function getAnswers() {
         return 'Please provide a first name';
       }
       if(firstName.length <= 3 || firstName.length > 20) {
-        return 'Please provdier a frist name between 4 and 20 characters long';
+        return 'Please provide a first name between 4 and 20 characters long';
       }
 
       return true;
